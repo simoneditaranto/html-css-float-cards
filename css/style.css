@@ -23,3 +23,54 @@ h1{
 
     color: #E53170;
 }
+
+/* sezione cards */
+
+#cards{
+    border: 1px solid red;
+}
+
+.card{
+    width: calc(100% / 3);
+
+    border: 1px solid green;
+
+    background-color: #0F0E17;
+    color: white;
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.card img{
+    height: 100px;
+
+    float: left;
+}
+
+.profile{
+    float: left;
+
+    padding: 10px;
+
+    text-align: left;
+}
+
+.profile div{
+    margin-bottom: 5px;
+}
+
+.profile .name{
+    font-weight: bold;
+}
+
+
+.profile a{
+    color: #17CCF2;
+}
+
+/* fine sezione cards */
+
