@@ -15,7 +15,7 @@ main{
     margin-left: auto;
     margin-right: auto;
 
-    /* text-align: center; */
+    text-align: center;
 }
 
 h1{
@@ -32,6 +32,7 @@ p{
 
 .cards-row{
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .card{
@@ -42,10 +43,7 @@ p{
 
     padding: 0 16px;
 
-    /* border: 1px solid green; */
 
-    /* background-color: #0F0E17; */
-    /* color: white; */
 }
 
 .clearfix::after{
@@ -62,9 +60,12 @@ p{
 }
 
 .profile{
-    /* float: left; */
+    float: left;
 
-    /* padding: 10px; */
+    width: 300px;
+    height: 100px;
+
+    padding: 10px;
 
     text-align: left;
 
